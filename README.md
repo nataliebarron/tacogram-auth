@@ -38,7 +38,7 @@
 
 - If a user is not logged in, hide the new post form and instead show a message telling the visitor they must login to post
 - In `app/controllers/posts_controller.rb`, assign the post's user as the logged in user
-- In `app/views/posts/index.html.erb`, display the first name of the user that created each post
+- In `app/views/posts/index.html.erb`, display the first name of the user that created each gp ports listpost
 - __Challenge__: Do not let a non-logged-in visitor get to the new post form; instead redirect with a flash message
 
 ### Extra Challenge
